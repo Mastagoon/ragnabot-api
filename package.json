@@ -1,0 +1,23 @@
+{
+  "name": "ragnabotapi",
+  "version": "1.0.0",
+  "description": "an interface to interact with the Ragnabot API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mastagoon/ragnabot-api.git"
+  },
+  "author": "Mastagoon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mastagoon/ragnabot-api/issues"
+  },
+  "homepage": "https://github.com/Mastagoon/ragnabot-api#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "discord.js": "^12.5.3"
+  }
+}

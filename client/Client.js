@@ -42,7 +42,6 @@ class RagnabotClient {
      */
     getItemEmbed = async (id, itemData) => {
         const data = await this.rest.request(Routes.itemRoute, `embed`, { ...this.options, data: { id, data: itemData } })
-        console.log(data)
         return new Discord.MessageEmbed(data)
     }
     /**
